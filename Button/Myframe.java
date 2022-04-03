@@ -60,5 +60,12 @@ public class Myframe extends JFrame implements ActionListener{
 			label.setVisible(true);
 		}	
 	}
+	
+	ActionListener buttonListener = new ActionListener() {
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			System.out.println("ingiosndf");
+		}
+	};    //to add another buttonlistener
 
 }
